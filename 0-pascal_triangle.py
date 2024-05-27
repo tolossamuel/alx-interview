@@ -11,9 +11,7 @@ def pascal_triangle(n):
             temp.append(arr[-1][x-1]+arr[-1][x])
         temp.append(1)
         arr.append(temp.copy())
-    for x in arr:
-        print(x)
+    return arr
 
-pascal_triangle(5)
             
         
