@@ -9,12 +9,12 @@ def pascal_triangle(n):
     """
     if (n <= 0):
         return []
-
-    arr = [[1]]
-    for i in range(n-1):
-        temp = [1]
-        for x in range(1,len(arr[-1])):
-            temp.append(arr[-1][x-1]+arr[-1][x])
-        temp.append(1)
-        arr.append(temp.copy())
-    return arr
+    else:
+        arr = [[1]]
+        for i in range(n-1):
+            temp = [1]
+            for x in range(1,len(arr[-1])):
+                temp.append(arr[-1][x-1]+arr[-1][x])
+            temp.append(1)
+            arr.append(temp.copy())
+        return arr
