@@ -1,8 +1,9 @@
 #!/usr/bin/python3
+"""
+0. Pascal's Triangle
+"""
 
-"""
-0-main
-"""
+
 def pascal_triangle(n):
     """ returns pascal triangle
     """
