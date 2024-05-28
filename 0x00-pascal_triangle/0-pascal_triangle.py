@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 
-"""
-0-main
-"""
 def pascal_triangle(n):
     """ returns pascal triangle
     """
@@ -16,6 +13,3 @@ def pascal_triangle(n):
         temp.append(1)
         arr.append(temp.copy())
     return arr
-
-            
-        
