@@ -7,8 +7,9 @@
 def pascal_triangle(n):
     """ returns pascal triangle
     """
-    if n <= 0:
+    if (n <= 0):
         return []
+
     arr = [[1]]
     for i in range(n-1):
         temp = [1]
